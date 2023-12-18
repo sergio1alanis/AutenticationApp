@@ -1,0 +1,41 @@
+body {
+    background-color: #001F3F;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#guardar,
+#logueo {
+    background-color: black;
+    color: white;
+    border: 1px solid #4fb1ff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#logueo:hover,
+#guardar:hover {
+    background-color: #97c8ff;
+    color: black;
+}
+
+#contenedor {
+    width: auto;
+    text-align: center;
+}
+
+#foto {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("https://gratisography.com/wp-content/uploads/2019/06/gratisography-small-shades-5000-1170x780.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
